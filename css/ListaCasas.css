@@ -1,0 +1,106 @@
+@CHARSET "ISO-8859-1";
+*{
+	padding:0;
+	margin:0;
+	font-family: 'Poppins',sans-serif;
+}
+header{
+	width:100%;
+	padding: 5px 4px;
+	background:#33CC00;
+	color:white;
+	
+}
+body{
+	background: #99FF99;
+}
+#barraBusqueda{
+	background: #CCCCCC;
+	padding:1em 4px;
+	
+}
+
+
+#barraBusqueda form{
+	width: 100%;
+}
+#barraBusqueda form input{
+	padding: 3px 0 ;
+}
+#search{
+	width:70%;
+}
+#buscar{
+	width: 20%;
+}
+article{
+	width:100%;
+	position:relative;
+	
+}
+
+article picture{
+	width: 100%;
+}
+article picture img{
+	width: 100%;
+	height: 100%;
+}
+article .datosCasa{
+	width:100%;
+	position:absolute;
+	top:40%;
+	background:rgba(0,0,0,0.3);
+	color:white;
+	font-size: large;
+	font-weight: bold;
+	text-align: center;
+}
+article .black{
+	color:black;
+	background: rgba(255,255,255,0.4);
+}
+article a{
+	display:block;
+	width:30%;
+	position: absolute;
+	top: 50%;
+	right: 35%;
+	color:white;
+	font-size: x-large;
+	text-align: center;
+	padding: 5px 4px;
+	border: 1px solid white;
+	font-weight: bold;
+	background: rgba(0,0,0,0.3);
+	
+}
+.black{
+	border-color: black;
+	color:black;
+	background: rgba(255,255,255,0.3);
+}
+@media screen and (min-width:650px){
+	header,#barraBusqueda{
+		background: none;
+		text-align: center;
+	}
+	#barraBusqueda{
+		width:50%;
+		margin: 0 auto;
+	}
+
+	article{
+		width: 30%;
+		
+		display: inline-block;
+		margin: 1%;
+	}
+	article #datosCasa{
+		font-size: x-large;
+	}
+	article a{
+		width: 50%;
+		right: 25%;
+	}
+}

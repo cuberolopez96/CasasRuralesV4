@@ -1,0 +1,72 @@
+/*rasgos generales*/
+*{
+    padding:0;
+    margin:0;
+}
+@keyframes animacionButton{
+    0%{
+        
+        background: #2F9C25;
+
+    }
+    50%{
+        top: 9em;
+        background: blue;
+    }
+    100%{
+        top:10em;
+        background: #2F9C25;
+    }
+}
+/*css index*/
+body{
+    width: 100%;
+
+
+    background: url(../img/fondo_smartphone.jpg);
+    background-size:cover ;
+    background-position: center center;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+
+
+    background-color: #464646;
+}
+.web{
+    width:100%;
+    position:relative;
+}
+
+.absolute {
+    position:absolute;
+    top:10em;
+    right: 7em;
+}
+
+.btn {
+    display: block;
+    width: 30%;
+    background: #2F9C25;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+#btntitulo{
+    animation: animacionButton 2s;
+
+}
+
+
+@media screen and (min-width: 650px){
+
+    body{
+        background-image: url(../img/fondo_portatil.jpg) ;
+    }
+    .absolute{
+        position:absolute;
+        right:15em;
+    }
+}
