@@ -16,8 +16,8 @@ header h1{
     display: inline-block;
 }
 header #icon_menu{
-    width: 55px;
-    height: 44px;
+    width: 7%;;
+    height: 10%;
     margin: 10px 0
 }
 header nav{
@@ -140,6 +140,36 @@ article a{
 	background: rgba(255,255,255,0.3);
 }
 @media screen and (min-width:650px){
+    header h1{
+        width: 45%;
+        
+        
+    }
+    header #icon_menu{
+        display: none;
+    }
+    header #nav{
+        width: 45%;
+        display: inline-block;
+    }
+    header #nav ul{
+        width: 100%;
+       
+    }
+    header #nav ul li{
+        width:35%;
+        line-height: normal;
+        font-size: 50%;
+        
+        display: inline-block;
+        
+        
+    }
+    header #nav ul li a{
+        display: inline-block;
+        text-align: center;
+    }
+    
 	#barraBusqueda{
 		text-align: center;
 	}

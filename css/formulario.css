@@ -63,6 +63,9 @@ div#slider figure {
     margin: 3%;
     box-shadow: 0 0 rgba(0,0,0,0.5);
 }
+#formulario form{
+    margin-top: 1em;
+}
 
 #formulario label[for="text"]{
     display: block;
@@ -83,22 +86,27 @@ div#slider figure {
     width:80%;
     margin: 0 auto;
 }
+#radiogroup input{
+    margin-left: 1em;
+}
 #formulario input[type="submit"]{
     display: block;
     width:80%;
-    background: #0bba14;
-    
-    margin:  0 auto;
+    background: #43A047;
+    border: none;
+    margin:  1em auto;
+    padding: 0.4em ;
    
     color: white;
     font-size: 1.3em;
 }
 
 @media screen and (min-width:650px){
+    
     #card{
         position:absolute;
         width:70%;
-        top:20%;
+        top:5%;
         left: 15%;
         color:white;
         height: auto;
