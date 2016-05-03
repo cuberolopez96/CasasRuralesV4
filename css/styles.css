@@ -2,26 +2,27 @@
 *{
     padding:0;
     margin:0;
+    font-family: 'Poppins',sans-serif;
 }
-@keyframes animacionButton{
+@keyframes animatioButton{
     0%{
         
-        background: #2F9C25;
-
     }
     50%{
-        top: 9em;
         background: blue;
     }
     100%{
-        top:10em;
-        background: #2F9C25;
+       background: #0f9d0f;
     }
 }
+
 /*css index*/
+html,body{
+    height: 100%;
+}
 body{
     width: 100%;
-
+    
 
     background: url(../img/fondo_smartphone.jpg);
     background-size:cover ;
@@ -37,27 +38,25 @@ body{
 }
 .web{
     width:100%;
+    height:100%;
     position:relative;
 }
 
-.absolute {
-    position:absolute;
-    top:10em;
-    right: 7em;
-}
-
-.btn {
-    display: block;
-    width: 30%;
-    background: #2F9C25;
-    color: white;
-    font-size: 2em;
-    text-align: center;
-}
 #btntitulo{
-    animation: animacionButton 2s;
-
+    display: block;
+    text-decoration: none;
+    width:30%;
+    background: #1B5E20;
+    font-size: 2em;
+    position: absolute;
+    top:50%;
+    left:37.5%;
+    text-align: center;
+    color:white;
+    animation: animationButton 1s;
 }
+
+
 
 
 @media screen and (min-width: 650px){
@@ -65,8 +64,5 @@ body{
     body{
         background-image: url(../img/fondo_portatil.jpg) ;
     }
-    .absolute{
-        position:absolute;
-        right:15em;
-    }
+    
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd' [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg id="Ebene_1" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 385.926 311.852" xml:space="preserve" height="311.85px" viewBox="0 0 385.926 311.852" width="385.93px" version="1.1" y="0px" x="0px" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<path d="m236.15 199.25h-8.892c-4.1 11.817-19.331 15.285-32.544 15.285-13.214 0-28.446-3.468-32.545-15.285h-8.892c-30.432 0-55.101 24.688-55.101 55.118v22.685h193.07v-22.685c-0.01-30.44-24.68-55.13-55.11-55.13z"/>
+	<circle cy="128.78" cx="194.72" r="55.101"/>
+</svg>
